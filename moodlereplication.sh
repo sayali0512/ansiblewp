@@ -32,7 +32,7 @@ update_nginx_configuration() {
 
 moodledata_config()
 {
-    sudo mkdir /var/www/html/moodle
+    sudo mkdir /var/www/html/lamp
     sudo chmod 777 /var/www/html/moodle
     sudo mkdir /var/www/html/moodle/moodledata
 }
